@@ -1,0 +1,3 @@
+sed -i 's#gcr.io/knative-releases/knative.dev/eventing-gitlab/cmd/controller@sha256:335f0e98e132793a75e7857ee7207cc62f6bc4d43eecb20c36df8c31ab5655e5#langhub/gitlab-controller:v1.2#g' ./*.yaml
+sed -i 's#gcr.io/knative-releases/knative.dev/eventing-gitlab/cmd/webhook@sha256:8187c6a1a5ecf77b1e1f8bff8509109c479211a57e5acd6d32b46ba2eaa47c96#langhub/gitlab-webhook:v1.2#g' ./*.yaml
+

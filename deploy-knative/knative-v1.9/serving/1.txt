@@ -1,0 +1,8 @@
+sed -i 's#gcr.io/knative-releases/knative.dev/serving/cmd/queue@sha256:319715ba3361ae104beb7dcdcb7447451ee058b2ffc855ee99373e20417a477d#langhub/serving-queue:v1.9#g' ./*.yaml
+sed -i 's#gcr.io/knative-releases/knative.dev/serving/cmd/activator@sha256:99d54525a3184362f746109b01275a01bfa48eb833ab4ae1b647b5bb142506ba#langhub/serving-activator:v1.9#g' ./*.yaml
+sed -i 's#gcr.io/knative-releases/knative.dev/serving/cmd/autoscaler@sha256:38b60f52ddd52234f22d742c1853dcfbc50fb72f7a1c8a1734909790fcebfa96#langhub/serving-autoscaler:v1.9#g' ./*.yaml
+sed -i 's#gcr.io/knative-releases/knative.dev/serving/cmd/controller@sha256:9652c4b3d7b1d41beed1ba45a62bd84bd230f612da80d5d79bb868000a91baaf#langhub/serving-controller:v1.9#g' ./*.yaml
+sed -i 's#gcr.io/knative-releases/knative.dev/serving/cmd/domain-mapping@sha256:7e4a15d0aeade8b84d337ed92ebdda97b07a475b5c91727e9a34f1478c8ba8ec#langhub/serving-domain-mapping:v1.9#g' ./*.yaml
+sed -i 's#gcr.io/knative-releases/knative.dev/serving/cmd/domain-mapping-webhook@sha256:1c3a6c87563ead6fcba1692a2bff55b43dae86041ed0c0e701324bfb884030ec#langhub/serving-domain-mapping-webhook:v1.9#g' ./*.yaml
+sed -i 's#gcr.io/knative-releases/knative.dev/serving/cmd/webhook@sha256:a8fd84ff44c3296020aaaf7306e2b45f231a6a2d5a4566cafaf601c968c8754#langhub/serving-webhook:v1.9#g' ./*.yaml
+

@@ -1,0 +1,7 @@
+# 1.创建channel
+kn channel create kc01 --type messaging.knative.dev:v1beta1:KafkaChannel
+
+# 2.default.yaml 可不用重复部署了,前面kafkaSource-topic-sink中部署了的前提下
+
+# 3.部署修改后的kafka-source-demo.yaml 将消息由topic发送到channel
+

@@ -1,0 +1,25 @@
+sed -i 's#langhub/eventing-controller:v1.2#langhub/eventing-controller:v1.2#g' ./*
+sed -i 's#langhub/mtping:v1.2#langhub/mtping:v1.2#g' ./*
+sed -i 's#langhub/eventing-webhook:v1.2#langhub/eventing-webhook:v1.2#g' ./*
+sed -i 's#langub/kafka-controller:v1.2#langub/kafka-controller:v1.2#g' ./*
+sed -i 's#langhub/kafka-broker-dispatcher:v1.2#langhub/kafka-broker-dispatcher:v1.2#g' ./*
+sed -i 's#langhub/kafka-broker-receiver:v1.2#langhub/kafka-broker-receiver:v1.2#g' ./*
+sed -i 's#langhub/kafka-webhook:v1.2#langhub/kafka-webhook:v1.2#g' ./*
+sed -i 's#langhub/channel_controller:v1.2#langhub/channel_controller:v1.2#g' ./*
+sed -i 's#langhub/channel_dispatcher:v1.2#langhub/channel_dispatcher:v1.2#g' ./*
+sed -i 's#langhub/filter:v1.2#langhub/filter:v1.2#g' ./*
+sed -i 's#langhub/ingress:v1.2#langhub/ingress:v1.2#g' ./*
+sed -i 's#langhub/mtchannel_broker:v1.2#langhub/mtchannel_broker:v1.2#g' ./*
+
+docker pull langhub/eventing-controller:v1.2
+docker pull langhub/mtping:v1.2
+docker pull langhub/eventing-webhook:v1.2
+docker pull langub/kafka-controller:v1.2
+docker pull langhub/kafka-broker-dispatcher:v1.2
+docker pull langhub/kafka-broker-receiver:v1.2
+docker pull langhub/kafka-webhook:v1.2
+docker pull langhub/channel_controller:v1.2
+docker pull langhub/channel_dispatcher:v1.2
+docker pull langhub/filter:v1.2
+docker pull langhub/ingress:v1.2
+docker pull langhub/mtchannel_broker:v1.2
